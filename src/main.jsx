@@ -120,9 +120,9 @@ const CardWithDetails = ({ member }) => {
 // Vista Services
 const Services = () => {
     const services = [
-        { name: 'Limpieza general', description: 'Service focused on keeping the home clean and tidy. Includes tasks such as sweeping, mopping, dusting, vacuuming carpets, cleaning bathrooms and kitchen, and occasionally windows or appliances.' , photo: limpiezaPhoto},
-        { name: 'Cuidado de niños', description: 'Care and supervision of minors. Includes activities such as playing, helping with schoolwork, preparing meals, and in some cases, taking children to or from school.', photo: cuidadoPhoto},
-        { name: 'Mantenimiento del Hogar', description: 'Technical services to repair and maintain the home in good condition. Includes plumbing, electrical, painting, furniture repair, and yard care.', photo: hogarPhoto},
+        { name: 'general clean', description: 'Service focused on keeping the home clean and tidy. Includes tasks such as sweeping, mopping, dusting, vacuuming carpets, cleaning bathrooms and kitchen, and occasionally windows or appliances.' , photo: limpiezaPhoto},
+        { name: 'childcare', description: 'Care and supervision of minors. Includes activities such as playing, helping with schoolwork, preparing meals, and in some cases, taking children to or from school.', photo: cuidadoPhoto},
+        { name: 'household maintenance', description: 'Technical services to repair and maintain the home in good condition. Includes plumbing, electrical, painting, furniture repair, and yard care.', photo: hogarPhoto},
     ];
 
     return (
